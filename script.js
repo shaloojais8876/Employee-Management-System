@@ -107,12 +107,12 @@ form.addEventListener("submit", (e) =>{
 
         currentEditRow = null; //Clear the current row after editing
     }
-   /* else{
+    else{
         //Add new employee
         addEmployee(employee);
-    }*/
+    }
 
-    addEmployee(employee);
+    //addEmployee(employee);(edit glitch)
     form.reset();
     togglePopup();
 
