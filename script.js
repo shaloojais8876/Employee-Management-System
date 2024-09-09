@@ -112,7 +112,7 @@ form.addEventListener("submit", (e) =>{
         addEmployee(employee);
     }
 
-    addEmployee(employee);
+    //addEmployee(employee);
     form.reset();
     togglePopup();
 
